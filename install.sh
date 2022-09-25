@@ -4,10 +4,7 @@
 clear
 
 bash src/banner.sh
-read -p "[+] Continue ? [Y/n] : " zakurachan;
 
-if [[ $zakurachan == "Y" ]];
-then
 	echo "[+] Installing xrdp ..."
 	sleep 3
 	cd src
